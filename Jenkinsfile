@@ -3,9 +3,9 @@ pipeline {
     agent any
     
     stages {
-        stage {
+        stage("name"){
             steps {
-                build "osaid"
+                build("osaid")
             }
         }
     }
