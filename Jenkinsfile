@@ -1,11 +1,11 @@
-@Library("sharedlib")
+@Library('sharedlib')
 pipeline {
     agent any
     
     stages {
         stage {
             steps {
-                build("osaid")
+                build "osaid"
             }
         }
     }
